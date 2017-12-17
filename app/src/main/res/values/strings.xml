@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">City_Maintenance</string>
+    <string name="t1">I have seen something broken</string>
+    <string name="t2">Unresolved issues in my town</string>
+    <string name="t3">View all</string>
+    <string name="t4">Reported issues</string>
+    <string name="t5">Submit to TownHall Office</string>
+    <string name="t6">Send a report about</string>
+</resources>

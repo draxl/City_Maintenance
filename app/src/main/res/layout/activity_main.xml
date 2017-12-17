@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="citymaintenance.technikum_wien.at.city_maintenance.MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t1"
+        android:fontFamily="sans-serif"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+    <ImageButton
+        android:id="@+id/b1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/t1"
+        android:background="@drawable/button1"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"/>
+    <Spinner
+        android:id="@+id/cat_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_toRightOf="@+id/b1"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t2"
+        android:layout_below="@+id/b1"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:textSize="8pt"
+        android:layout_marginLeft="15dp"/>
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:text="@string/t3"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:textSize="8pt"
+        android:layout_marginLeft="15dp"/>
+
+</RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
